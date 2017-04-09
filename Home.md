@@ -1,10 +1,10 @@
 # Web Course
 
 ## Javascript
-  - Day 1: Getting started with Javascript
+  - Day 1: [Getting started with Javascript](js/day-1.md)
   - Day 2: Function in JS
   - Day 3: Object in JS
-  - Day 4: Learn jQuery
+  - Day 4: Learn jQuery and Bower
   - Day 5: Using Gulp to do back ground tasks
 
 ## HTML/CSS
