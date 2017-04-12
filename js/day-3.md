@@ -1,4 +1,7 @@
-# Object in Javascript
+---
+title: Object Programming
+category: Javascript
+---
 
 ### Introduction
 - Object is mostly a JSON object which contains properties. However, it is not only
@@ -9,29 +12,29 @@ a struct with a set of `properties` and `methods`.
 ### Define object
 - An empty object
 
-{% highlight JavaScript %}
-var myObj = {};
-{% endhighlight %}
+  ```javascript
+  var myObj = {};
+  ```
 
 - An object with properties
 
-{% highlight JavaScript %}
-var student = {
-    name: '',
-    age: ''
-};
-{% endhighlight %}
+  ```javascript
+  var student = {
+      name: '',
+      age: ''
+  };
+  ```
 
 - An object with methods
 
-{% highlight JavaScript %}
-var student = {
-    name: 'John',
-    getName: function() {
-        return this.name;
-    }
-};
-{% endhighlight %}
+  ```javascript
+  var student = {
+      name: 'John',
+      getName: function() {
+          return this.name;
+      }
+  };
+  ```
 
 **Notes**
 - It should be a semicolon `;` at the end of object declaration
@@ -43,46 +46,46 @@ var student = {
 ### Examples
 - Manage pagination with JS
 
-{% highlight JavaScript %}
-var pagination = {
-    current: 1,
-    baseUrl: '/post',
-    next: function() {
-        var page = this.current + 1;
-        window.location.href = baseUrl + '?page=' + page;
-    },
-    prev: function() {
-        var page = this.current - 1;
-        if (page < 0) {
-            page = 0;
-        }
-        window.location.href = baseUrl + '?page=' + page;
-    }
-};
-// go to next page
-pagination.next();
+  ```javascript
+  var pagination = {
+      current: 1,
+      baseUrl: '/post',
+      next: function() {
+          var page = this.current + 1;
+          window.location.href = baseUrl + '?page=' + page;
+      },
+      prev: function() {
+          var page = this.current - 1;
+          if (page < 0) {
+              page = 0;
+          }
+          window.location.href = baseUrl + '?page=' + page;
+      }
+  };
+  // go to next page
+  pagination.next();
 
-// go to previous page
-pagination.prev();
-{% endhighlight %}
+  // go to previous page
+  pagination.prev();
+  ```
 
 - Build a simple slider
 
-{% highlight JavaScript %}
-var slider = {
-    target: null,
-    bind: function() {
-        var self = this;
-        window.onload = function() {
-            document.getElementById(target).scroll = function() {
-                // scrolling
-                // this will not work here because this belongs to current function
-                // but self will
-            };
-        }
-    }
-};
-{% endhighlight %}
+  ```javascript
+  var slider = {
+      target: null,
+      bind: function() {
+          var self = this;
+          window.onload = function() {
+              document.getElementById(target).scroll = function() {
+                  // scrolling
+                  // this will not work here because this belongs to current function
+                  // but self will
+              };
+          }
+      }
+  };
+  ```
 
 ### Conclusion
 - Instead of writing a lot of separate functions, we could combine them into one object for easier in manipulation

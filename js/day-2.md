@@ -1,4 +1,7 @@
-# Function in Javascript
+---
+title: Function
+category: Javascript
+---
 
 ### Introduction
 - It is a necessary to understand deeply about function in javascript, as JS is mostly runnable with only defined functions.
@@ -7,23 +10,23 @@
 ### Define function
 - Way 1: Define as a callable
 
-{% highlight JavaScript %}
-function makeCake(recipes) {
-    return 'cake';
-}
-// call function
-var cake = makeCake('chocolate and milk');
-{% endhighlight %}
+  ```javascript
+  function makeCake(recipes) {
+      return 'cake';
+  }
+  // call function
+  var cake = makeCake('chocolate and milk');
+  ```
 
 - Way 2: Define as as variable
 
-{% highlight JavaScript %}
-var makeCake = function(recipes) {
-    return 'cake';
-};
-// call function
-var cake = makeCake('chocolate and milk');
-{% endhighlight %}
+  ```javascript
+  var makeCake = function(recipes) {
+      return 'cake';
+  };
+  // call function
+  var cake = makeCake('chocolate and milk');
+  ```
 
 **Notes**:
 + With variable way, it is a best practice to place semicolon `;` at the end of statement as same as we define a variable
@@ -32,32 +35,32 @@ var cake = makeCake('chocolate and milk');
 ### Examples
 - Display a random number for every 5 seconds
 
-{% highlight JavaScript %}
-function showRandomNumber(seconds) {
-    setTimeout(function() {
-      console.log(Math.random());
-      showRandomNumber(seconds);
-    }, seconds * 1000);
-}
-showRandomNumber(5); // display a number for every 5 seconds
-{% endhighlight %}
+  ```javascript
+  function showRandomNumber(seconds) {
+      setTimeout(function() {
+        console.log(Math.random());
+        showRandomNumber(seconds);
+      }, seconds * 1000);
+  }
+  showRandomNumber(5); // display a number for every 5 seconds
+  ```
 
 - Alert user to go home if this is weekend at 6pm
 
-{% highlight JavaScript %}
-function alertUserToLeave() {
-    var d = new Date();
-    if (d.getDay() === 5 && d.getHours() >= 18) {
-        alert('Hey! Time to go home and have great time with your family');
-    } else {
-        // time is not up yet, wait for 1 minute to check again
-        setTimeout(function() {
-            alertUserToLeave();
-        }, 60 * 1000);
-    }
-}
-alertUserToLeave();
-{% endhighlight %}
+  ```javascript
+  function alertUserToLeave() {
+      var d = new Date();
+      if (d.getDay() === 5 && d.getHours() >= 18) {
+          alert('Hey! Time to go home and have great time with your family');
+      } else {
+          // time is not up yet, wait for 1 minute to check again
+          setTimeout(function() {
+              alertUserToLeave();
+          }, 60 * 1000);
+      }
+  }
+  alertUserToLeave();
+  ```
 
 ### Keep in mind
 - None of us could remember everything, so do not waste time to try to keep all in our small head, do it smarter way.

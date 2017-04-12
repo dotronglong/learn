@@ -1,0 +1,8 @@
+code.highlighter-rouge {
+  color: rgb(204, 34, 85);
+  background-color: #f7f7f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 1px 3px;
+}
