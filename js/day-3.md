@@ -8,27 +8,30 @@ a struct with a set of `properties` and `methods`.
 
 ### Define object
 - An empty object
-```
+
+{% highlight JavaScript %}
 var myObj = {};
-```
+{% endhighlight %}
 
 - An object with properties
-```
+
+{% highlight JavaScript %}
 var student = {
     name: '',
     age: ''
 };
-```
+{% endhighlight %}
 
 - An object with methods
-```
+
+{% highlight JavaScript %}
 var student = {
     name: 'John',
     getName: function() {
         return this.name;
     }
 };
-```
+{% endhighlight %}
 
 **Notes**
 - It should be a semicolon `;` at the end of object declaration
@@ -39,7 +42,8 @@ var student = {
 
 ### Examples
 - Manage pagination with JS
-```
+
+{% highlight JavaScript %}
 var pagination = {
     current: 1,
     baseUrl: '/post',
@@ -60,10 +64,11 @@ pagination.next();
 
 // go to previous page
 pagination.prev();
-```
+{% endhighlight %}
 
 - Build a simple slider
-```
+
+{% highlight JavaScript %}
 var slider = {
     target: null,
     bind: function() {
@@ -77,7 +82,7 @@ var slider = {
         }
     }
 };
-```
+{% endhighlight %}
 
 ### Conclusion
 - Instead of writing a lot of separate functions, we could combine them into one object for easier in manipulation

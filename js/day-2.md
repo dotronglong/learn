@@ -6,22 +6,24 @@
 
 ### Define function
 - Way 1: Define as a callable
-```
+
+{% highlight JavaScript %}
 function makeCake(recipes) {
     return 'cake';
 }
 // call function
 var cake = makeCake('chocolate and milk');
-```
+{% endhighlight %}
 
 - Way 2: Define as as variable
-```
+
+{% highlight JavaScript %}
 var makeCake = function(recipes) {
     return 'cake';
 };
 // call function
 var cake = makeCake('chocolate and milk');
-```
+{% endhighlight %}
 
 **Notes**:
 + With variable way, it is a best practice to place semicolon `;` at the end of statement as same as we define a variable
@@ -29,7 +31,8 @@ var cake = makeCake('chocolate and milk');
 
 ### Examples
 - Display a random number for every 5 seconds
-```
+
+{% highlight JavaScript %}
 function showRandomNumber(seconds) {
     setTimeout(function() {
       console.log(Math.random());
@@ -37,10 +40,11 @@ function showRandomNumber(seconds) {
     }, seconds * 1000);
 }
 showRandomNumber(5); // display a number for every 5 seconds
-```
+{% endhighlight %}
 
 - Alert user to go home if this is weekend at 6pm
-```
+
+{% highlight JavaScript %}
 function alertUserToLeave() {
     var d = new Date();
     if (d.getDay() === 5 && d.getHours() >= 18) {
@@ -53,7 +57,7 @@ function alertUserToLeave() {
     }
 }
 alertUserToLeave();
-```
+{% endhighlight %}
 
 ### Keep in mind
 - None of us could remember everything, so do not waste time to try to keep all in our small head, do it smarter way.
