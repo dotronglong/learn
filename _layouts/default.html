@@ -33,6 +33,19 @@
 
       </section>
     </div>
+
+    {% if page.show_navigation %}
+    <div class="wrapper">
+      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+        <h1>{{ site.navigation_title | default: "Quick Links" }}</h1>
+      </header>
+      <section>
+        {% capture my_include %}{% include navigation.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </section>
+    </div>
+    {% endif %}
+
     <footer>
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

@@ -1,6 +1,7 @@
 ---
 title: Object Programming
 category: Javascript
+show_navigation: true
 ---
 
 ### Introduction

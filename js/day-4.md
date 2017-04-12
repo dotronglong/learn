@@ -1,6 +1,7 @@
 ---
 title: jQuery and Bower
 category: Javascript
+show_navigation: true
 ---
 
 ## Bower

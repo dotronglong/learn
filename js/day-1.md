@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 category: Javascript
+show_navigation: true
 ---
 
 ### Debug
