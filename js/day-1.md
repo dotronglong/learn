@@ -1,3 +1,4 @@
+{% include "main-navigation.md" %}
 # Getting Started
 
 ### Debug
