@@ -30,7 +30,7 @@
 
 - Install bower as global (recommended), however, it could be install locally
 
-  ```bash
+  ```
   # Install as a global executive program
   npm install -g bower
 
@@ -39,6 +39,7 @@
   ```
 
 - Verify that `bower` is successfully installed
+
   ```
   bower -v
   ```
@@ -52,7 +53,7 @@
 
 - Install a package and save as dependency
 
-  ```bash
+  ```
   # Install as required dependency
   bower install -S [package]
 
