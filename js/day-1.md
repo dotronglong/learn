@@ -1,5 +1,8 @@
-{% include "main-navigation.md" %}
-# Getting Started
+---
+title: Getting Started
+---
+
+{% include_relative ../navigation.md %}
 
 ### Debug
 - Use `console.log` to debug a variable
