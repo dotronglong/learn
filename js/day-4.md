@@ -10,10 +10,12 @@
 - Suppose that we need jQuery and Bootstrap for our great project, here are things we have to do with or without Bower
   + Without Bower, we have to go to [jQuery](https://jquery.com/) and [Bootstrap](http://getbootstrap.com/) to download our libraries. Just in case you spent a lot of projects enough to realize that it really a mess if Bootstrap package requires jQuery v1.x while we are download jQuery v2.x
   + With Bower, everything seems easier by running these commands
+
   ```
   bower install jquery
   bower install bootstrap
   ```
+
   And let Bower do the hard parts for us including version management.
 
 #### Quick Start
@@ -21,10 +23,13 @@
 - Secondly, but most important part is download `npm` and install `bower`. It might be tough at the beginning, but everything goes smoothly after that big step.
 - `node` and `npm` could be found [here](https://nodejs.org/en/download/)
 - Verify that `npm` is installed successfully
+
   ```
   npm -v
   ```
+
 - Install bower as global (recommended), however, it could be install locally
+
   ```bash
   # Install as a global executive program
   npm install -g bower
@@ -32,6 +37,7 @@
   # Install for local usage
   npm install bower
   ```
+
 - Verify that `bower` is successfully installed
   ```
   bower -v
@@ -39,10 +45,13 @@
 
 #### How to use
 - Install a package
+
   ```
   bower install [package]
   ```
+
 - Install a package and save as dependency
+
   ```bash
   # Install as required dependency
   bower install -S [package]
