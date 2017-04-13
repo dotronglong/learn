@@ -1,12 +1,12 @@
 ### Javascript
-  - Day 1: [Getting started with Javascript](/js/day-1.html)
-  - Day 2: [Function in JS](/js/day-2.html)
-  - Day 3: [Object in JS](/js/day-3.html)
-  - Day 4: [Bower and jQuery](/js/day-4.html)
-  - Day 5: [Using Gulp to do automated tasks](/js/day-5.html)
+  - Day 1: [Getting started with Javascript](/web/js/day-1.html)
+  - Day 2: [Function in JS](/web/js/day-2.html)
+  - Day 3: [Object in JS](/web/js/day-3.html)
+  - Day 4: [Bower and jQuery](/web/js/day-4.html)
+  - Day 5: [Using Gulp to do automated tasks](/web/js/day-5.html)
 
 ### HTML/CSS
-  - Day 1: Getting started with CSS
+  - Day 1: [Getting started with CSS](/web/css/day-1.html)
   - Day 2: Learn to code with SASS
   - Day 3: Make custom theme from Bootstrap
   - Day 4: CSS3 Transitions
