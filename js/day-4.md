@@ -288,3 +288,10 @@ you are not only using jQuery as a JavaScript library, but also use another libr
 
 ### Dig into jQuery
 Now, it's time for [jQuery Tutorials](jquery.html)
+
+### References
+
+- [Bower Configuration](https://bower.io/docs/config/)
+- [jQuery API](http://api.jquery.com/)
+- [Learn jQuery](https://learn.jquery.com/)
+- [jQuery Common Mistakes](http://www.jquerybyexample.net/2013/02/common-jquery-mistakes-errors.html)

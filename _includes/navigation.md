@@ -3,7 +3,7 @@
   - Day 2: [Function in JS](/js/day-2.html)
   - Day 3: [Object in JS](/js/day-3.html)
   - Day 4: [Bower and jQuery](/js/day-4.html)
-  - Day 5: Using Gulp to do back ground tasks
+  - Day 5: [Using Gulp to do automated tasks](/js/day-5.html)
 
 ### HTML/CSS
   - Day 1: Getting started with CSS
