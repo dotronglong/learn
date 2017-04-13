@@ -167,7 +167,26 @@ including aspects such as the layout, colors, and fonts.
   ```
 
   ```css
-  #myDiv > other-class {
+  #myDiv > .other-class {
+    color: red;
+  }
+  ```
+
++ Friend select, in order to select next element then `+` is helpful
+
+  ```html
+  <div id="myDiv">
+    <div class="other-class">Hello World</div>
+    <div class="my-class"> <!-- is selected -->
+      <div class="other-class">Book A</div>
+    </div>
+    <div class="my-other-class"></div> <!-- is not selected -->
+  </div>
+
+  ```
+
+  ```css
+  .other-class + .my-class {
     color: red;
   }
   ```
