@@ -1,5 +1,5 @@
 ---
-title: jQuery and Bower
+title: Bower and jQuery
 category: Javascript
 show_navigation: true
 ---
@@ -142,9 +142,7 @@ Opera, etc.
   <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
   ```
 
-### Let's give it a try
-
-#### Common mistakes
+### Common mistakes
 - Always think about the time which jQuery is usable, it means that please make sure
 that you run jQuery only when it is fully loaded.
 
@@ -288,4 +286,5 @@ you are not only using jQuery as a JavaScript library, but also use another libr
   _Before using any plugin, always ensure that it must not hit performance of your page
   and it should not conflict with other plugins that you are using already._
 
+### Dig into jQuery
 Now, it's time for [jQuery Tutorials](jquery.html)
