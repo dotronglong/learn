@@ -152,9 +152,12 @@ including aspects such as the layout, colors, and fonts.
   #myDiv div:nth-child(event) {
     color: black;
   }
+  #myDiv div:nth-child(2n+3) { /* Every second column starting from column 3 */
+    color: black;
+  }
   ```
 
-- Direct selector, using `>` we could select the direct children
+- Direct selectors, using `>` we could select the direct children
 
   ```html
   <div id="myDiv">
@@ -172,7 +175,7 @@ including aspects such as the layout, colors, and fonts.
   }
   ```
 
-+ Friend select, in order to select next element then `+` is helpful
++ Friend selectors, in order to select next element then `+` is helpful
 
   ```html
   <div id="myDiv">
