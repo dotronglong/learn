@@ -73,7 +73,7 @@ be named as below:
 
 - Create a sass file name `test.scss`, and paste below content to it
 
-  ```sass
+  ```scss
   $font-family: 'Tahoma';
 
   body {
@@ -95,3 +95,98 @@ be named as below:
 
   /*# sourceMappingURL=test.css.map */
   ```
+
+## Variables
+
+- If you were a PHP developer, syntax of SASS will be easy for you. To define a variable
+you could write as below
+
+  ```text
+  $[variable-name]: variable-value;
+  ```
+
+- Example
+
+  ```scss
+  $main-color: red;
+
+  div {
+    color: $main-color; /* Using variable */
+  }
+  ```
+
+## Mixins
+
+- Mixin, or function, contains a bun of many css definitions inside it body. Likes
+function, it is able to receive input arguments.
+
+  ```text
+  @mixin [mixin-name]([...mixin variables]) {
+    /* definitions are described here */
+  }
+  ```
+
+- Example  
+
+  ```scss
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+
+  .box { @include border-radius(10px); }
+  ```
+
+## Inheritance
+
+- This is one of the most useful features of Sass. Using `@extend` lets you share a
+set of CSS properties from one selector to another. It helps keep your Sass very DRY.
+In our example we're going to create a simple series of messaging for errors, warnings and successes.
+
+  ```text
+  .my-class {
+    @extend .my-parent-class;
+  }
+  ```
+
+- Example
+
+  ```scss
+  .message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+
+  .success {
+    @extend .message;
+    border-color: green;
+  }
+  ```
+
+## Operators
+
+- Doing math in your CSS is very helpful. Sass has a handful of standard math operators like `+`, `-`, `*`, `/`, and `%`.
+
+- Example to do some simple math to calculate widths for an aside & article.
+
+  ```scss
+  .container { width: 100%; }
+
+  article[role="main"] {
+    float: left;
+    width: 600px / 960px * 100%;
+  }
+
+  aside[role="complementary"] {
+    float: right;
+    width: 300px / 960px * 100%;
+  }
+  ```
+
+## References
+- [SASS Language](http://sass-lang.com/)
+- [SASS Wiki](https://en.wikipedia.org/wiki/Sass_(stylesheet_language))
+- [LESS Wiki](https://en.wikipedia.org/wiki/Less_(stylesheet_language))
