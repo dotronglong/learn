@@ -8,7 +8,7 @@
 ### HTML/CSS
   - [Getting started with CSS](/web/css/getting-started-with-css.html)
   - [Learn to code with SASS](/web/css/learn-to-code-sass.html)
-  - Make custom theme from Bootstrap
+  - [Learn to customize Bootstrap](/web/css/learn-to-customize-bootstrap.html)
   - CSS3 Transitions
 
 ### PHP - Laravel - Lumen
