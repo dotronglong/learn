@@ -287,7 +287,7 @@ you are not only using jQuery as a JavaScript library, but also use another libr
   and it should not conflict with other plugins that you are using already._
 
 ### Dig into jQuery
-Now, it's time for [jQuery Tutorials](jquery.html)
+Now, it's time for [jQuery Tutorials](jquery-tutorials.html)
 
 ### References
 

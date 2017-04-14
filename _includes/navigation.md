@@ -1,15 +1,15 @@
 ### Javascript
-  - Day 1: [Getting started with Javascript](/web/js/day-1.html)
-  - Day 2: [Function in JS](/web/js/day-2.html)
-  - Day 3: [Object in JS](/web/js/day-3.html)
-  - Day 4: [Bower and jQuery](/web/js/day-4.html)
-  - Day 5: [Using Gulp to do automated tasks](/web/js/day-5.html)
+  - [Getting started with Javascript](/web/js/getting-started-with-javascript.html)
+  - [Function in JS](/web/js/function-in-javascript.html)
+  - [Object in JS](/web/js/object-programming-in-javascript.html)
+  - [Bower and jQuery](/web/js/bower-and-jquery.html)
+  - [Using Gulp to do automated tasks](/web/js/gulp-for-automated-tasks.html)
 
 ### HTML/CSS
-  - Day 1: [Getting started with CSS](/web/css/day-1.html)
-  - Day 2: Learn to code with SASS
-  - Day 3: Make custom theme from Bootstrap
-  - Day 4: CSS3 Transitions
+  - [Getting started with CSS](/web/css/getting-started-with-css.html)
+  - [Learn to code with SASS](/web/css/learn-to-code-sass.html)
+  - Make custom theme from Bootstrap
+  - CSS3 Transitions
 
 ### PHP - Laravel - Lumen
   - Day 1: Getting started with PHP, Object Oriented Programming in PHP
