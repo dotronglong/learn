@@ -13,7 +13,7 @@
 
 ### PHP - Laravel - Lumen
   - [Getting started with PHP, Object Oriented Programming in PHP](/web/php/getting-started-oop-php.html)
-  - Advanced techniques with magic methods
+  - [Advanced techniques with magic methods](/web/php/php-magic-methods.html)
   - Composer (Manage PHP package dependencies)
   - Dependency Injection in Laravel (Heart of Laravel)
   - Building commands to do background tasks in Laravel
