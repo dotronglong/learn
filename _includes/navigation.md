@@ -12,9 +12,9 @@
   - CSS3 Transitions
 
 ### PHP - Laravel - Lumen
-  - Day 1: Getting started with PHP, Object Oriented Programming in PHP
-  - Day 2: Advanced techniques with magic methods
-  - Day 3: Composer (Manage PHP package dependencies)
-  - Day 4: Dependency Injection in Laravel (Heart of Laravel)
-  - Day 5: Building commands to do background tasks in Laravel
-  - Day 6: Write simple API application with Lumen followed RESTful API
+  - [Getting started with PHP, Object Oriented Programming in PHP](/web/php/getting-started-oop-php.html)
+  - Advanced techniques with magic methods
+  - Composer (Manage PHP package dependencies)
+  - Dependency Injection in Laravel (Heart of Laravel)
+  - Building commands to do background tasks in Laravel
+  - Write simple API application with Lumen followed RESTful API
